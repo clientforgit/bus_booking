@@ -1,7 +1,7 @@
 package com.bus_booking.models;
 
 
-import com.bus_booking.controllers.ui.UiTrip;
+import com.bus_booking.ui.UiTrip;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.text.DateFormat;

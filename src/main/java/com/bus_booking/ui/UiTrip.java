@@ -1,4 +1,4 @@
-package com.bus_booking.controllers.ui;
+package com.bus_booking.ui;
 
 
 import com.bus_booking.entities.Trip;
