@@ -30,7 +30,15 @@ public class TicketsServiceImpl implements TicketsService {
     }
 
     @Override
-    public Ticket createInPendingStorage(String alias, String surname, String name, String phone, String email, int journeyId, int seatNumber, int stopIdFrom, int stopIdTo) {
+    public Ticket createInPendingStorage(String alias,
+                                         String surname,
+                                         String name,
+                                         String phone,
+                                         String email,
+                                         int journeyId,
+                                         int seatNumber,
+                                         int stopIdFrom,
+                                         int stopIdTo) {
         Journey journey = journeysRepository.getReferenceById(journeyId);
         Stop from = stopsRepository.getReferenceById(stopIdFrom);
         Stop to = stopsRepository.getReferenceById(stopIdTo);

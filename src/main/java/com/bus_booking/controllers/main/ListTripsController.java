@@ -50,15 +50,4 @@ public class ListTripsController {
         }
         return mainModel;
     }
-
-    @GetMapping("/allListTrips")
-    public ModelAndView listAllJourneys() {
-        MainModel mainModel = new MainModel();
-        mainModel.setTrips(
-                tripsService.getAllTrips()
-                        .stream()
-                        .map(trip -> UiTrip.of(trip, tripsService.getPrice(trip)))
-                        .toList());
-        return mainModel;
-    }
 }
