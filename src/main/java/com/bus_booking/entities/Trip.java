@@ -1,9 +1,6 @@
 package com.bus_booking.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.EmbeddedId;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import javax.persistence.*;
 import lombok.Getter;
 
 import java.sql.Timestamp;
