@@ -91,6 +91,8 @@ public class PaymentController {
         params.put("currency", "UAH");
         params.put("description", description);
         params.put("version", LiqPay.API_VERSION);
+        params.put("result_url", LiqPayProperties.SERVER_URL);
+        params.put("server_url", LiqPayProperties.SERVER_URL + "/liqPayResponse");
         LiqPay liqpay = new LiqPay(LiqPayProperties.PUBLIC_KEY, LiqPayProperties.PRIVATE_KEY);
         return liqpay.cnb_form(params);
     }
