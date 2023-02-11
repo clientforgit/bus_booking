@@ -60,6 +60,9 @@ Foresee the implementation of the following tasks:
 
 # Interface
 Main page:
+
 <img width = "650" src = "https://user-images.githubusercontent.com/102827476/218275332-d05cebfe-61fb-4450-86fb-ed2a11fc7689.png">
+
 Main page of admin panel:
-<img width = "650" src = "https://user-images.githubusercontent.com/102827476/218275671-18a3a7c9-13bb-4c75-af75-7c18490490be.png)">
+
+<img width = "650" src = "https://user-images.githubusercontent.com/102827476/218275671-18a3a7c9-13bb-4c75-af75-7c18490490be.png">
