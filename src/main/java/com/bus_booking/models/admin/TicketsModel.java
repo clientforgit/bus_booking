@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class TicketsModel extends ModelAndView {
 
     public TicketsModel() {
-        super("/admin/tickets");
+        super("admin/tickets");
     }
 
     public void setTickets(Iterable<Ticket> tickets) {

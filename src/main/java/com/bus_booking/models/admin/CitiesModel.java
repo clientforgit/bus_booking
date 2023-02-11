@@ -6,7 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class CitiesModel extends ModelAndView {
 
     public CitiesModel() {
-        super("/admin/cities");
+        super("admin/cities");
     }
 
     public void setCities(Iterable<City> cities) {

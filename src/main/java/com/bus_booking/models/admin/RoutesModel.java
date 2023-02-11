@@ -6,7 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class RoutesModel extends ModelAndView {
 
     public RoutesModel() {
-        super("/admin/routes");
+        super("admin/routes");
     }
 
     public void setRoutes(Iterable<Route> routes) {

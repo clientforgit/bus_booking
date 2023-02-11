@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class StopsModel extends ModelAndView {
 
     public StopsModel() {
-        super("/admin/stops");
+        super("admin/stops");
     }
 
     public void setStops(Iterable<Stop> stops) {

@@ -4,7 +4,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 public class PaymentModel extends ModelAndView {
     public PaymentModel() {
-        super("/payment");
+        super("payment");
     }
 
     public void setFromCityName(String value) {

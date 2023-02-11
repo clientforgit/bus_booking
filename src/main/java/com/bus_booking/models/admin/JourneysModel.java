@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 public class JourneysModel extends ModelAndView {
     public JourneysModel() {
-        super("/admin/journeys");
+        super("admin/journeys");
     }
 
     public void setJourneys(Iterable<Journey> journeys) {

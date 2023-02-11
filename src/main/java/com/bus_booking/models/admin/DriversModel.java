@@ -5,7 +5,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 public class DriversModel extends ModelAndView {
     public DriversModel() {
-        super("/admin/drivers");
+        super("admin/drivers");
     }
 
     public void setDrivers(Iterable<Driver> drivers) {

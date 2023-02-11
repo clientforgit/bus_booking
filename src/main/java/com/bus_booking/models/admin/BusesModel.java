@@ -6,7 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 public class BusesModel extends ModelAndView {
     public BusesModel() {
-        super("/admin/buses");
+        super("admin/buses");
     }
 
     public void setBuses(Iterable<Bus> buses) {
