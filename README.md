@@ -31,7 +31,9 @@ java -jar target/bus_booking-0.0.1-SNAPSHOT.jar
 
 Finally, you can check it on host localhost:8080
 
-Or you can watch example on 159.89.99.188:8080
+Or you can watch example on 159.89.99.188:8080:
+159.89.99.188:8080 - main page
+159.89.99.188:8080/admin - admin panel
 
 # Task
 <img width = "650" src = "https://user-images.githubusercontent.com/102827476/217517725-af592938-b7c7-409c-a903-ad5c8ed4ff31.png">
