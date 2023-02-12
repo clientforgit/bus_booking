@@ -32,7 +32,9 @@ java -jar target/bus_booking-0.0.1-SNAPSHOT.jar
 Finally, you can check it on host localhost:8080
 
 Or you can watch example on 159.89.99.188:8080:
+
 159.89.99.188:8080 - main page
+
 159.89.99.188:8080/admin - admin panel
 
 # Task
